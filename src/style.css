@@ -25,7 +25,7 @@ li {
   line-height: 19px;
 }
 
-li ::first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 
@@ -46,6 +46,8 @@ li ::first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
+  height: 64px;
+  width: 64px;
 }
 .weather-temperature strong {
   color: rgb(33, 33, 33);
