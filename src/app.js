@@ -42,13 +42,14 @@ function displayForecast(response) {
                 <div class="weather-forecast-date">
                 ${formatDay(forecastDay.dt)}
                 </div>
+                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
                 <img src="http://openweathermap.org/img/wn/${
                   forecastDay.weather[0].icon
                 }@2x.png" alt="" width="56" />
                 <div class="weather-forecast-temperature">
                     <span class="weather-forecast-temperature-max"> ${Math.round(
                       forecastDay.temp.max
-                    )}° </span> 
+                    )}°   </span> 
                     <span class="weather-forecast-temperature-min"> ${Math.round(
                       forecastDay.temp.min
                     )}° </span>
@@ -108,4 +109,4 @@ function handleSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-search("New York");
+search("Mount Angel");
