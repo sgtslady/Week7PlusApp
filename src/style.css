@@ -5,7 +5,6 @@ body {
 
 .background {
   background-image: url("images/weather.png");
-  opacity: 0.5;
 }
 
 .btn {
