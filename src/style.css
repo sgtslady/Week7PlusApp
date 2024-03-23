@@ -2,10 +2,6 @@ body {
   font-family: arial, sans-serif;
 }
 
-body .background {
-  background-image: ("src/images/weather.png");
-  opacity: 50%;
-}
 .btn {
   margin: 0px auto;
   font-size: 16px;
