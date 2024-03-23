@@ -1,5 +1,5 @@
 body {
-  background-image: url(src/images/weather.png);
+  background-image: url("src/images/weather.png");
   font-family: arial, sans-serif;
 }
 
