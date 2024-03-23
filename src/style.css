@@ -3,7 +3,7 @@ body {
 }
 
 .background {
-  background-image: ("images/weather.png");
+  background-image: ("src/images/weather.png");
   opacity: 50%;
 }
 .btn {
